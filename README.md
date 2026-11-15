@@ -114,39 +114,43 @@ Contiene el método `Main()`, que inicia la ejecución de la aplicación. Tambi�
 
 ## Capturas de la ejecución
 
+## Capturas de la ejecución
+
 ### 1. Cantidad cero
 
-Se ingresa una cantidad igual a `0`. El programa acepta el dato, ya que solamente se rechazan las cantidades negativas.
+Se ingresa una cantidad igual a 0. El programa acepta el dato, ya que solamente se rechazan las cantidades negativas.
 
-![Captura con cantidad cero](Capturas/Productos.jfif)
+![Cantidad cero](CAPTURAS/Productos.jfif)
 
 ### 2. Cantidad negativa
 
-Se ingresa una cantidad negativa. El programa muestra el mensaje de error `ERROR: La cantidad no puede ser negativa.` y vuelve a solicitar los datos.
+Se ingresa una cantidad negativa. El programa muestra el mensaje de error y vuelve a solicitar los datos.
 
-![Captura con cantidad negativa](Capturas/Segunda.jfif)
+![Cantidad negativa](CAPTURAS/Segunda.jfif)
 
 ### 3. Nombre vacío
 
-Se deja el nombre del producto en blanco. El programa muestra el mensaje `ERROR: El nombre no puede estar vacío.` y vuelve a solicitar los datos.
+Se deja el nombre del producto en blanco. El programa muestra el mensaje de error correspondiente.
 
-![Captura con nombre vacío](Capturas/tercera.jfif)
+![Nombre vacío](CAPTURAS/tercera.jfif)
 
 ### 4. Precio negativo
 
-Se ingresa un precio negativo. El programa muestra el mensaje `ERROR: El precio debe ser mayor que cero.` y vuelve a solicitar los datos.
+Se ingresa un precio negativo. El programa muestra el mensaje de error correspondiente.
 
-![Captura con precio negativo](Capturas/cuarta.jfif)
+![Precio negativo](CAPTURAS/cuarta.jfif)
 
 ### 5. Registro de productos
 
-Se muestran los productos que fueron registrados correctamente durante la ejecución del programa.
+Se muestran los productos que fueron registrados correctamente.
 
-![Captura de productos registrados](Capturas/Quinta.jfif)
+![Registro de productos](CAPTURAS/Quinta.jfif)
 
 ### 6. Registro de otro producto
 
-Se presenta otra evidencia del registro correcto de un producto en el inventario.
+Se presenta otra evidencia del registro correcto de un producto.
+
+![Otro producto registrado](CAPTURAS/Sexta.jfif)
 
 ![Captura de otro producto registrado](Capturas/Sexta.jfif)
 
