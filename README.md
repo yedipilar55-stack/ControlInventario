@@ -1,4 +1,4 @@
- # Control de Inventario - TecnoPunto
+# Control de Inventario - TecnoPunto
 
 ## Información general
 
@@ -51,17 +51,11 @@ La aplicación permite:
 ```text
 ControlInventario/
 │
-├── Capturas/
-│   ├── Productos.jfif
-│   ├── Segunda.jfif
-│   ├── tercera.jfif
-│   ├── cuarta.jfif
-│   ├── Quinta.jfif
-│   └── Sexta.jfif
+├── ControlInventario/
+│   ├── CAPTURAS/
+│   ├── ControlInventario.csproj
+│   └── Program.cs
 │
-├── Inventario.csproj
-├── Inventario.slnx
-├── Program.cs
 └── README.md
 ```
 
@@ -72,8 +66,6 @@ ControlInventario/
 La clase `Producto` representa los artículos que forman parte del inventario. Contiene los campos privados y las propiedades necesarias para almacenar y controlar la información de cada producto.
 
 ### Campos privados
-
-La clase utiliza los siguientes campos:
 
 - `codigo`: almacena el código del producto.
 - `nombre`: almacena el nombre del producto.
@@ -114,8 +106,6 @@ Contiene el método `Main()`, que inicia la ejecución de la aplicación. Tambi�
 
 ## Capturas de la ejecución
 
-## Capturas de la ejecución
-
 ### 1. Registro correcto de un producto (P001)
 
 Se registra un producto con todos los datos válidos. El programa muestra el mensaje de registro correcto y continúa con el siguiente producto.
@@ -151,6 +141,7 @@ Se ingresa una cantidad negativa. El programa muestra el mensaje de error y vuel
 Se ingresa una cantidad igual a 0. El programa acepta el dato, ya que solamente se rechazan las cantidades negativas.
 
 ![Cantidad cero](ControlInventario/CAPTURAS/captura5-registro-productos.jpeg)
+
 ## Requisitos para ejecutar el proyecto
 
 - Tener instalado el SDK de .NET 10.0.
