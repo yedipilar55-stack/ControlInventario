@@ -149,12 +149,14 @@ Se ingresa una cantidad igual a 0. El programa acepta el dato, ya que solamente 
 
 ## ¿Cómo ejecutar el proyecto?
 
-1. Abrir el archivo `Inventario.slnx` en Visual Studio.
+## ¿Cómo ejecutar el proyecto?
+
+1. Abrir el archivo `ControlInventario/ControlInventario.csproj` en Visual Studio.
 2. Esperar a que el proyecto cargue correctamente.
 3. Ejecutar la aplicación presionando `F5` o el botón de inicio.
 4. Seguir las instrucciones que aparecen en la consola para registrar los tres productos.
 
-También se puede ejecutar desde una terminal ubicada en la carpeta del proyecto utilizando:
+También se puede ejecutar desde una terminal ubicada en la carpeta `ControlInventario/ControlInventario` utilizando:
 
 ```bash
 dotnet run
