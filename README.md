@@ -114,42 +114,43 @@ Contiene el método `Main()`, que inicia la ejecución de la aplicación. Tambi�
 
 ## Capturas de la ejecución
 
-### 1. Cantidad cero
+## Capturas de la ejecución
 
-Se ingresa una cantidad igual a `0`. El programa acepta el dato, ya que solamente se rechazan las cantidades negativas.
+### 1. Registro correcto de un producto (P001)
 
-![Captura con cantidad cero](Capturas/Productos.jfif)
+Se registra un producto con todos los datos válidos. El programa muestra el mensaje de registro correcto y continúa con el siguiente producto.
 
-### 2. Cantidad negativa
+![Registro correcto P001](ControlInventario/CAPTURAS/captura2-cantidad-negativa.jpeg)
 
-Se ingresa una cantidad negativa. El programa muestra el mensaje de error `ERROR: La cantidad no puede ser negativa.` y vuelve a solicitar los datos.
+### 2. Información de los productos registrados (P002 y P003)
 
-![Captura con cantidad negativa](Capturas/Segunda.jfif)
+Se muestran los productos que fueron registrados correctamente, con su código, nombre, precio, cantidad y valor total.
 
-### 3. Nombre vacío
+![Información de productos](ControlInventario/CAPTURAS/captura1-cantidad-cero.jpeg)
 
-Se deja el nombre del producto en blanco. El programa muestra el mensaje `ERROR: El nombre no puede estar vacío.` y vuelve a solicitar los datos.
+### 3. Precio negativo (P003)
 
-![Captura con nombre vacío](Capturas/tercera.jfif)
+Se ingresa un precio negativo. El programa muestra el mensaje de error correspondiente y vuelve a solicitar los datos.
 
-### 4. Precio negativo
+![Precio negativo](ControlInventario/CAPTURAS/captura6-otro-producto.jpeg)
 
-Se ingresa un precio negativo. El programa muestra el mensaje `ERROR: El precio debe ser mayor que cero.` y vuelve a solicitar los datos.
+### 4. Nombre vacío (P004)
 
-![Captura con precio negativo](Capturas/cuarta.jfif)
+Se deja el nombre del producto en blanco. El programa muestra el mensaje de error correspondiente.
 
-### 5. Registro de productos
+![Nombre vacío](ControlInventario/CAPTURAS/captura3-nombre-vacio.jpeg)
 
-Se muestran los productos que fueron registrados correctamente durante la ejecución del programa.
+### 5. Cantidad negativa (P005)
 
-![Captura de productos registrados](Capturas/Quinta.jfif)
+Se ingresa una cantidad negativa. El programa muestra el mensaje de error y vuelve a solicitar los datos.
 
-### 6. Registro de otro producto
+![Cantidad negativa](ControlInventario/CAPTURAS/captura4-precio-negativo.jpeg)
 
-Se presenta otra evidencia del registro correcto de un producto en el inventario.
+### 6. Cantidad cero (P006)
 
-![Captura de otro producto registrado](Capturas/Sexta.jfif)
+Se ingresa una cantidad igual a 0. El programa acepta el dato, ya que solamente se rechazan las cantidades negativas.
 
+![Cantidad cero](ControlInventario/CAPTURAS/captura5-registro-productos.jpeg)
 ## Requisitos para ejecutar el proyecto
 
 - Tener instalado el SDK de .NET 10.0.
